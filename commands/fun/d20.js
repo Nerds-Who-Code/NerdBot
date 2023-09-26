@@ -5,7 +5,7 @@ module.exports = {
 		.setName('d20')
 		.setDescription('Rolls a d20 dice '),
 	async execute(interaction) {        
-        const roll = getRandomNumber();
+        	const roll = getRandomNumber();
 		return interaction.reply(roll);
 	},
 };
